@@ -134,7 +134,7 @@ def add2(name,age=18):
 
 add2("sanjay",13)
 
-def person(name,**data):   //keyworded variable length argument using **
+def person(name,**data):   #keyworded variable length argument using **
     print(name)
     for i,j in data.items():
         print(i,j)
